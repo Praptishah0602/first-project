@@ -42,7 +42,7 @@ public class LaunchGmail {
 	        {
 	        	System.out.println("Login Failed");
 	        	}
-	        Thread.sleep(2000);
+	        Thread.sleep(3000);
 
 	        // Close the browser
 	        driver.quit();

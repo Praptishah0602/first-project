@@ -1,5 +1,7 @@
 package learningSelenium;
 
+import java.util.Collection;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -42,7 +44,8 @@ public class LaunchGmail {
 	        {
 	        	System.out.println("Login Failed");
 	        	}
-	        Thread.sleep(3000);
+	        	Thread.sleep(2000);
+	     
 
 	        // Close the browser
 	        driver.quit();
